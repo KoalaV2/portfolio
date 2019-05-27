@@ -1,0 +1,37 @@
+.gray-box {
+    background-color: #181a1b;
+    width: 100px;
+    border: 10px solid gray;
+    height: 200px;
+		padding-left: 20px;
+    float: right;
+		overflow: scroll;
+}
+#gray-box-font {
+	font-size: 15px;
+	font-family: monospace;
+}
+#youtube {
+    height: 40px;
+    width: 60px;
+}
+#github {
+    width: 50px;
+    height: 50px;
+}
+#discord {
+    height: 60x;
+    width: 60px;
+}
+body {
+    background-color:#181a1b;
+}
+h1{
+    font-family: monospace;
+    color:white;
+}
+p{
+    font-family: monospace;
+    font-size: 18px;
+    color:white;
+}
