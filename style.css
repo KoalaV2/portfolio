@@ -3,9 +3,9 @@
     width: 100px;
     border: 10px solid gray;
     height: 200px;
-		padding-left: 20px;
+    padding-left: 20px;
     float: right;
-		overflow: scroll;
+    overflow: scroll;
 }
 #gray-box-font {
 	font-size: 15px;
