@@ -4,11 +4,14 @@
 }
 .gray-box {
     background-color: #181a1b;
-    width: 100px;
+    width: 120px;
     border: 10px solid gray;
-    height: 200px;
-    padding-left: 20px;
-    overflow: scroll;
+    height: 250px;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 0;
 }
 #gray-box-font {
 	font-size: 15px;
@@ -23,8 +26,9 @@
     height: 50px;
 }
 #discord {
-    height: 60x;
+    height: 60px;
     width: 60px;
+    margin: auto;
 }
 .gray-nav-box {
 	background-color: #181a1b;
