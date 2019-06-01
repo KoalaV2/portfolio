@@ -1,10 +1,13 @@
+.boxes {
+	float: right;
+	overflow: auto;
+}
 .gray-box {
     background-color: #181a1b;
     width: 100px;
     border: 10px solid gray;
     height: 200px;
     padding-left: 20px;
-    float: right;
     overflow: scroll;
 }
 #gray-box-font {
@@ -23,15 +26,23 @@
     height: 60x;
     width: 60px;
 }
+.gray-nav-box {
+	background-color: #181a1b;
+	width: 100px;
+	border: 10px solid gray;
+	height: 200px;
+	padding-left: 20px;
+	overflow: scroll;
+}
 body {
-    background-color:#181a1b;
+    background-color: #181a1b;
 }
 h1{
     font-family: monospace;
-    color:white;
+    color: white;
 }
 p{
     font-family: monospace;
     font-size: 18px;
-    color:white;
+    color: white;
 }
