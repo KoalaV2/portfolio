@@ -1,11 +1,17 @@
+.boxes {
+	float: right;
+	overflow: auto;
+}
 .gray-box {
     background-color: #181a1b;
-    width: 100px;
+    width: 120px;
     border: 10px solid gray;
-    height: 200px;
-    padding-left: 20px;
-    float: right;
-    overflow: scroll;
+    height: 250px;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 0;
 }
 #gray-box-font {
 	font-size: 15px;
@@ -20,18 +26,36 @@
     height: 50px;
 }
 #discord {
-    height: 60x;
+    height: 60px;
     width: 60px;
+    margin: auto;
+}
+.gray-nav-box {
+	background-color: #181a1b;
+	width: 100px;
+	border: 10px solid gray;
+	height: 200px;
+	padding-left: 5px;
+	padding-right: 15px;
+	overflow: scroll;
+}
+#gray-nav-box-font {
+    font-size: 15px;
+    font-family: monospace;
 }
 body {
-    background-color:#181a1b;
+    background-color: #181a1b;
 }
 h1{
     font-family: monospace;
-    color:white;
+    color: white;
 }
 p{
     font-family: monospace;
     font-size: 18px;
+<<<<<<< HEAD
     color:white;
+=======
+    color: white;
+>>>>>>> rework
 }
