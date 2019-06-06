@@ -59,6 +59,12 @@
     background-color: black;
     color: white;
 }
+.nav-bar-list {
+    border-bottom: 1px solid gray;
+}
+.nav-bar-list:last-child {
+    border-bottom: none;
+}
 #gray-nav-box-font {
     font-size: 15px;
     font-family: monospace;
