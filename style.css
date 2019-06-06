@@ -40,7 +40,7 @@
 	overflow: show;
 	padding: 20px 0;
     padding-top: 0px;
-    align-items: center;
+    text-align: center;
 }
 .nav-box-text {
     list-style-type: none;
