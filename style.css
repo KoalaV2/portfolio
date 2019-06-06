@@ -5,7 +5,7 @@
 
 }
 .gray-box {
-    width: 130px;
+    width: 140px;
     border: 10px solid gray;
     height: 250px;
     overflow: show;
@@ -34,7 +34,7 @@
     margin: auto;
 }
 .gray-nav-box {
-	width: 130px;
+	width: 140px;
 	border: 10px solid gray;
 	height: 200px;
 	overflow: show;
