@@ -7,7 +7,7 @@
 .gray-box {
     width: 150px;
     border: 10px solid gray;
-    height: 280px;
+    height: 320px;
     overflow: show;
     display: flex;
     flex-flow: column;
@@ -29,9 +29,14 @@
     height: 50px;
 }
 #discord {
-    height: 60px;
+    height: 70px;
     width: 60px;
     margin: auto;
+}
+#linkedin {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
 }
 .gray-nav-box {
 	width: 150px;
