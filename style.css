@@ -1,13 +1,22 @@
+.boxes {
+	float: right;
+	overflow: auto;
+	background-color: #181a1b;
+
+}
 .gray-box {
-    background-color: #181a1b;
-    width: 100px;
+    width: 130px;
     border: 10px solid gray;
-    height: 200px;
-		padding-left: 20px;
-    float: right;
-		overflow: scroll;
+    height: 250px;
+    overflow: show;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 0;
+    padding-top: 0px;
 }
 #gray-box-font {
+	align-items: center;
 	font-size: 15px;
 	font-family: monospace;
 }
@@ -20,18 +29,35 @@
     height: 50px;
 }
 #discord {
-    height: 60x;
+    height: 60px;
     width: 60px;
+    margin: auto;
+}
+.gray-nav-box {
+	width: 130px;
+	border: 10px solid gray;
+	height: 200px;
+	overflow: show;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 20px 0;
+	padding-top: 0px;
+
+}
+#gray-nav-box-font {
+    font-size: 15px;
+    font-family: monospace;
 }
 body {
-    background-color:#181a1b;
+    background-color: #181a1b;
 }
-h1{
+.headers {
+    color: white;
     font-family: monospace;
-    color:white;
 }
 p{
     font-family: monospace;
     font-size: 18px;
-    color:white;
+    color: white;
 }
