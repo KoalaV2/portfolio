@@ -7,7 +7,7 @@
 .gray-box {
     width: 150px;
     border: 10px solid gray;
-    height: 250px;
+    height: 280px;
     overflow: show;
     display: flex;
     flex-flow: column;
