@@ -1,12 +1,13 @@
 .boxes {
 	float: right;
 	overflow: auto;
-	background-color: #181a1b;
+	background-color: #000000;
 
 }
 .gray-box {
     width: 150px;
-    border: 10px solid gray;
+    border: 8px solid gray;
+    border-radius: 5px;
     height: 320px;
     overflow: show;
     display: flex;
@@ -38,50 +39,14 @@
     width: 60px;
     padding: 10px;
 }
-.gray-nav-box {
-	width: 150px;
-	border: 10px solid gray;
-	height: 200px;
-	overflow: show;
-	padding: 20px 0;
-    padding-top: 0px;
-    text-align: center;
-}
-.nav-box-text {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    background-color: gray;
-
-}
-.nav-box-link {
-    display: block;
-    color: #181a1b;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: 0.5s ease;
-}
-.nav-box-link:hover {
-    background-color: black;
-    color: white;
-
-}
-#gray-nav-box-font {
-    font-size: 15px;
-    font-family: monospace;
-}
 body {
-    background-color: #181a1b;
+    background-color: #000000;
 }
 .headers {
     color: white;
     font-family: monospace;
 }
-.nav-stuff {
-    color:white;
-    font-family: monospace;
-}
+
 p{
     font-family: monospace;
     font-size: 18px;
