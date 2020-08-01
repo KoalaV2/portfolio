@@ -25,6 +25,8 @@ body {
     position: relative;
     text-align: center;
     margin: auto;
+    animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
 }
 .headers {
     color: white;
