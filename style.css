@@ -43,3 +43,7 @@ p{
     font-size: 18px;
     color: white;
 }
+@viewport {
+	width: device-width ; 
+	zoom: 1.0 ; 
+}
