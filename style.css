@@ -18,10 +18,10 @@
     }
 }
 body {
-    background-color: #000000;
+    max-width: 100vw;
+    background-color: #272727;
     height: 200px;
     width: 400px;
-    background: black;
     position: relative;
     text-align: center;
     margin: auto;
@@ -42,8 +42,4 @@ p{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 18px;
     color: white;
-}
-@viewport {
-	width: device-width ; 
-	zoom: 1.0 ; 
 }
