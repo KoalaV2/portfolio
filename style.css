@@ -28,6 +28,9 @@ body {
     animation: fadein 1.5s;
     -webkit-animation: fadein 1.5s;
 }
+a:link {
+  color: #989719;
+}
 .headers {
     color: white;
     font-family: 'IBM Plex Mono', monospace;
