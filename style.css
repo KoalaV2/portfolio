@@ -29,23 +29,23 @@ body {
     -webkit-animation: fadein 1.5s;
 }
 a:link {
-  color: #989719;
+    color: #989719;
 }
 a:visited {
-	color:#cc231c
+    color: #cc231c;
 }
 .headers {
     color: white;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
 }
 
-p{
-    font-family: 'IBM Plex Mono', monospace;
+p {
+    font-family: "IBM Plex Mono", monospace;
     font-size: 18px;
     color: white;
 }
-.social_medias{
-    font-family: 'IBM Plex Mono', monospace;
+.social_medias {
+    font-family: "IBM Plex Mono", monospace;
     font-size: 18px;
     color: white;
 }
